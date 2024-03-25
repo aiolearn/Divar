@@ -1,0 +1,176 @@
+@font-face {
+    font-display: swap;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Bold.f18db7b4.eot);
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Bold.94bdf556.woff2) format("woff2"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Bold.dd12fb6a.woff) format("woff"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Bold.e65c9d52.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Medium.d1f537d1.eot);
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Medium.9f338149.woff2) format("woff2"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Medium.2d28b58d.woff) format("woff"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Medium.dde1bbb6.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb.432a2b2d.eot);
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb.cdb118d6.woff2) format("woff2"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb.9ffdcda0.woff) format("woff"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb.ae01de69.ttf) format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Light.b9db61ce.eot);
+    src: url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Light.b5815f24.woff2) format("woff2"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Light.b35266cb.woff) format("woff"),url(https://s100.divarcdn.com/statics/2023/07/IRANSansWeb_Light.f1c0e72c.ttf) format("truetype")
+}
+
+
+.main{
+    direction: rtl;
+    font-family: IRANSans;
+}
+
+.main_search{
+    direction: rtl;
+    padding: 16px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+}
+
+.search_divar{
+    background-color: #f5f5f5;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search1{
+    font-size: 16px;
+    line-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgba(0,0,0,.32);
+}
+
+.search_text{
+    color: rgb(0 0 0 / 32%);
+    font-weight: 400;
+
+}
+.search_text2{
+    float: left;
+    height: 24px;
+    margin-top: 6px;
+    line-height: 24px;
+    padding: 0px 12px;
+    color: #7d7d7d;
+    border-right: 1px solid #cdcdcd;
+
+}
+
+.filter1{
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+    width: 100%;
+    height: 48px;
+    transition: top .24s ease-in-out;
+    margin-top: 2px;
+    direction: rtl;
+    padding-right: 10px;
+    overflow-x:scroll;
+}
+
+.filter2{
+    width: 1000px;
+}
+
+button{
+    font-family: IRANSans;
+    padding: 0px 12px;
+    border: 1px solid #d4d4d4;
+    background: white;
+    color: #7c7c7c;
+    border-radius: 100px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.h1{
+    font-size: 12px;
+    padding-right: 20px;
+    font-weight: 100;
+    color : gray;
+}
+
+.agahi1{
+   
+
+width: 100%;
+
+padding: 8px 16px;
+}
+
+.agahi2{
+    border: 1px solid #e2e2e2;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+    max-width: 204px;
+    margin: auto;
+
+}
+
+.text1{
+    font-weight: 500;
+
+}
+
+.text2{
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(173, 173, 173);
+}
+
+.redtext{
+    font-size: 12px;
+    font-weight: 400;
+    color: #a62626;
+}
+
+.divbottom{
+    height: 56px;
+    position: fixed;
+    background: rgba(255,255,255,.98);
+    width: 100%;
+    z-index: 100;
+    display: block;
+    bottom: 0;
+    box-shadow: 0 -1px 2px 0 rgba(0,0,0,.12);
+}
+
+.bottom2{
+    display: flex;
+    width: 100%;
+}
+
+.btn_bottom{
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 25px;
+    color: #878787;
+}
+
+ 
